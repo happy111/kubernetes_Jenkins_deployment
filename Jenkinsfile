@@ -1,9 +1,10 @@
 pipeline {
   environment {
-    dockerimagename = "praveensingam1994/nodeapp"
+    dockerimagename = "umeshsamal12345/nodeapp"
     dockerImage = ""
   }
-  
+
+
   agent any
 
   stages {
